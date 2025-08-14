@@ -17,6 +17,6 @@ Homepage = "https://github.com/AmIn-SAR/mygeopy"
 [project.optional-dependencies]
 tests = ["pytest"]
 
-tool.pytest.ini_options]
+[tool.pytest.ini_options]
 addopts = "--doctest-modules"
 
