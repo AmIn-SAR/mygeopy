@@ -1,0 +1,8 @@
+*Store
+.DS_Store
+build/
+dist/
+*.whl
+*.egg-info
+tests/__pycache__/*
+__pycache__/
