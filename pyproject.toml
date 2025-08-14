@@ -1,0 +1,22 @@
+[project]
+name = "mygeopy"
+# Pick a version (SemVer, EffVer, CalVer, etc.)
+version = "0.1.0"
+description = "My Python package for working with geometry."
+authors = [{name = "amin tavak", email = "atavakk3@cougarnet.uh.edu"}]
+license-files = ['License.txt']
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+
+[ptoject.urls]
+Homepage = "https://github.com/AmIn-SAR/mygeopy"
+
+[project.optional-dependencies]
+tests = ["pytest"]
+
+tool.pytest.ini_options]
+addopts = "--doctest-modules"
+
